@@ -9,7 +9,11 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
     "core-js": "^3.8.3",
+    "eslint-plugin-cypress": "^2.12.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
